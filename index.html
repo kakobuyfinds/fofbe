@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<title>iTaoBuy spreadsheet | CAFANS Finds & Buying Checklist</title>
+<meta name="description" content="Explore an iTaoBuy spreadsheet with real CAFANS product finds, reference USD prices, category filters, a CSV download and a practical buying checklist.">
+<meta name="theme-color" content="#103d30">
+<meta property="og:type" content="website">
+<meta property="og:title" content="iTaoBuy spreadsheet | Discover, compare, check">
+<meta property="og:description" content="Real CAFANS catalog finds, clear reference prices and a practical checklist for your next shortlist.">
+<meta name="twitter:card" content="summary">
+<!-- index.html. Add a self-referencing canonical and og:url after the final public URL is known.
+     Search submission has not been performed: a deployed URL and verified Google Search
+     Console / Bing Webmaster Tools access are required. Submit the deployed URL there.
+     Do not use a canonical pointing to CAFANS for this independent page. -->
+<style>
+:root{--bg:#f5f6ef;--ink:#153d31;--muted:#617066;--green:#103d30;--lime:#d9ee96;--line:#dce2d5;--white:#fff;--radius:20px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}button,input,select{font:inherit}button,a,input,select{touch-action:manipulation}button{cursor:pointer}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #699834;outline-offset:4px}.wrap{width:min(1160px,92%);margin:auto}.skip{position:absolute;left:10px;top:-80px;background:white;padding:10px;z-index:10}.skip:focus{top:10px}header{border-bottom:1px solid var(--line);background:#f5f6eff5}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:86px}.brand{text-decoration:none;font-weight:850;letter-spacing:-1px;font-size:23px}.brand span{display:inline-grid;place-items:center;background:var(--green);color:var(--lime);border-radius:12px;width:36px;height:36px;margin-right:9px}nav{display:flex;gap:23px}nav a{text-decoration:none;font-size:14px;font-weight:650}.hero{padding:76px 0 58px;display:grid;grid-template-columns:1.3fr .7fr;gap:60px;align-items:center}.eyebrow{font-size:12px;text-transform:uppercase;font-weight:800;letter-spacing:2px}.eyebrow:before{content:"";display:inline-block;width:8px;height:8px;background:#6d8f35;border-radius:50%;margin-right:9px}h1{font-size:clamp(43px,6vw,76px);line-height:1.06;letter-spacing:-3px;margin:23px 0}h1 em{font-style:normal;color:#688638}h2{font-size:clamp(27px,3.4vw,39px);line-height:1.15;letter-spacing:-1.2px;margin:10px 0 18px}h3{line-height:1.35}.lead{max-width:620px;color:var(--muted);font-size:18px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:27px 0}.btn{display:inline-flex;align-items:center;justify-content:center;gap:14px;padding:13px 21px;border:1px solid var(--green);border-radius:9px;background:var(--green);color:white;text-decoration:none;font-weight:700;font-size:14px}.btn.light{color:var(--green);background:transparent}.small{font-size:12px;color:var(--muted)}.hero-note{background:var(--green);color:white;border-radius:var(--radius);padding:32px;transform:rotate(2deg);box-shadow:12px 14px 0 #dce6cc}.hero-note .number{font-size:70px;font-weight:850;line-height:1.2;color:var(--lime)}.hero-note p{color:#d1ded6}.mini-row{display:flex;justify-content:space-between;border-top:1px solid #ffffff30;padding:13px 0;font-size:14px}.strip{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:21px 0;gap:25px}.strip strong{display:block}.strip span{font-size:13px;color:var(--muted)}section{padding:60px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px}.section-head p{max-width:590px;color:var(--muted)}.toolbar{background:white;border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;grid-template-columns:1fr 190px 180px;gap:12px;margin:22px 0}label{display:block;font-size:12px;font-weight:750}input,select{width:100%;border:1px solid var(--line);border-radius:8px;padding:11px;background:#fafbf7;color:var(--ink);margin-top:5px}.catalog{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:15px;overflow:hidden;display:flex;flex-direction:column}.photo{position:relative;aspect-ratio:1;background:#e9ece4;overflow:hidden}.photo img{width:100%;height:100%;object-fit:cover;transition:transform .3s}.card:hover img{transform:scale(1.035)}.tag{position:absolute;left:12px;top:12px;background:#ffffffed;border-radius:6px;padding:4px 9px;font-size:11px;font-weight:700}.card-body{padding:18px;display:flex;flex:1;flex-direction:column}.card h3{font-size:16px;margin:7px 0 12px;min-height:44px}.price{font-size:25px;font-weight:800}.price small{font-weight:500;font-size:11px}.card .btn{margin-top:16px;padding:10px 12px}.ref{font-size:11px;color:var(--muted);margin-top:8px}.catalog-foot{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-top:20px}.text-button{background:transparent;border:0;text-decoration:underline;color:var(--green);padding:8px 0;font-size:13px}.empty{padding:30px;border:1px dashed var(--line);border-radius:12px}.guide{background:#e8eddf;border-radius:25px;padding:38px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:30px}.step-number{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:var(--lime);font-size:13px;font-weight:800}.steps p,.columns p{font-size:14px;color:var(--muted)}.columns{display:grid;grid-template-columns:1fr 1fr;gap:45px}table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:13px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:12px}.calculator{background:white;border:1px solid var(--line);padding:26px;border-radius:16px}.calculator .fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}.total{border-top:1px solid var(--line);margin-top:20px;padding-top:15px;font-weight:800;font-size:25px}.checklist{padding-left:20px}.checklist li{margin-bottom:12px;font-size:14px}.faq{max-width:840px;margin:auto}details{border-bottom:1px solid var(--line);padding:19px 0}summary{cursor:pointer;font-weight:700}details p{font-size:14px;color:var(--muted)}.end{background:var(--green);border-radius:22px;padding:38px;color:white;display:flex;align-items:center;justify-content:space-between;gap:25px}.end h2{margin:0 0 10px}.end p{color:#d2ded5;margin:0}.end .btn{background:var(--lime);color:var(--green);flex-shrink:0}footer{padding:35px 0;border-top:1px solid var(--line);color:var(--muted);font-size:12px}footer p{max-width:850px}footer strong{color:var(--green)}[hidden]{display:none!important}
+@media(max-width:900px){.hero{gap:30px}.catalog{grid-template-columns:repeat(2,1fr)}.columns{gap:25px}.hero-note{padding:23px}h1{letter-spacing:-2px}}
+@media(max-width:620px){.nav{min-height:72px}.brand{font-size:19px}nav{gap:12px}nav a{font-size:12px}.hero{grid-template-columns:1fr;padding:43px 0;gap:30px}.hero-note{transform:none}.hero-note .number{font-size:45px}.strip{grid-template-columns:1fr;gap:12px}.strip strong{display:inline;margin-right:8px}.toolbar{grid-template-columns:1fr 1fr}.toolbar label:first-child{grid-column:1/-1}.section-head,.catalog-foot,.end{display:block}.steps,.columns{grid-template-columns:1fr}.guide{padding:25px}.steps{gap:18px}.card-body{padding:12px}.card h3{font-size:14px}.price{font-size:22px}section{padding:42px 0}.end .btn{margin-top:20px}.calculator .fields{grid-template-columns:1fr}h1{font-size:46px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.photo img{transition:none}}
+</style>
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@graph":[
+{"@type":"WebPage","name":"iTaoBuy spreadsheet | CAFANS Finds & Buying Checklist","inLanguage":"en","description":"An independent product discovery page with a CAFANS catalog snapshot, filters, CSV export and buying checklist.","about":{"@type":"Thing","name":"iTaoBuy spreadsheet"}},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is an iTaoBuy spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"An iTaoBuy spreadsheet is a product discovery list used to organize finds, source links, prices and buying notes. This page presents a small CAFANS catalog snapshot, rather than an official iTaoBuy inventory."}},
+{"@type":"Question","name":"Do the buttons open iTaoBuy directly?","acceptedAnswer":{"@type":"Answer","text":"No. Product and shopping buttons on this page open https://cafans.com. Find the matching item on CAFANS, open its detail page and review the available platform options."}},
+{"@type":"Question","name":"Are the displayed prices the delivered cost?","acceptedAnswer":{"@type":"Answer","text":"No. They are estimated USD item prices displayed on the CAFANS homepage when imported on 19 November 2026. Shipping, fees and applicable taxes may be additional."}},
+{"@type":"Question","name":"Can I download this spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"Yes. Download the four imported catalog rows as a CSV file. The export includes CAFANS item references, reference USD prices and the import date."}}
+]}
+]}
+</script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/fofbe/">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+<div class="wrap nav">
+<a class="brand" href="https://cafans.com"><span>iT</span>THE FINDS EDIT</a>
+<nav aria-label="Main navigation"><a href="#catalog">Catalog</a><a href="#guide">How to buy</a><a href="#faq">FAQ</a></nav>
+</div>
+</header>
+<main id="main" class="wrap">
+<div class="hero">
+<div>
+<div class="eyebrow">Independent discovery · CAFANS catalog</div>
+<h1>iTaoBuy spreadsheet<br><em>Find your next pick.</em></h1>
+<p class="lead">Browse real product finds, compare reference prices and keep the checks that matter beside your shortlist. Start with a small, traceable catalog instead of an endless list.</p>
+<div class="actions">
+<a class="btn" href="https://cafans.com">iTaoBuy spreadsheet <span aria-hidden="true">↗</span></a>
+<a class="btn light" href="https://cafans.com">Buy it now <span aria-hidden="true">↗</span></a>
+</div>
+<p class="small">Both buttons open CAFANS. This independent guide is not the official iTaoBuy website.</p>
+</div>
+<aside class="hero-note" aria-label="Catalog overview">
+<div class="eyebrow">A shortlist with context</div>
+<div class="number">04<span style="font-size:20px"> / finds</span></div>
+<p>Four imported product rows. Original CAFANS references. Clear item-price estimates.</p>
+<div class="mini-row"><span>Catalog source</span><strong>CAFANS</strong></div>
+<div class="mini-row"><span>Snapshot imported</span><strong>19 Nov 2026</strong></div>
+<div class="mini-row"><span>Download format</span><strong>CSV</strong></div>
+</aside>
+</div>
+<div class="strip">
+<div><strong>Source attached</strong><span>Identify each item by its CAFANS reference.</span></div>
+<div><strong>Costs separated</strong><span>Item prices are distinct from delivery costs.</span></div>
+<div><strong>Easy to compare</strong><span>Search, filter, sort and export your rows.</span></div>
+</div>
+
+<section id="catalog" aria-labelledby="catalog-title">
+<div class="section-head">
+<div><div class="eyebrow">The catalog</div><h2 id="catalog-title">Real finds. A clearer starting point.</h2></div>
+<p>Imported from the CAFANS homepage on <time datetime="2026-11-19">19 November 2026</time>. Photos are source listing images, not independently verified QC photos. Prices and availability can change.</p>
+</div>
+<div class="toolbar">
+<label>Search this catalog<input id="search" type="search" placeholder="Product name or CAFANS reference"></label>
+<label>Category<select id="category"><option value="all">All categories</option><option>Shoes</option><option>Hoodies/Sweaters</option><option>T-Shirts</option><option>Jackets</option></select></label>
+<label>Sort by<select id="sort"><option value="original">Original order</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></label>
+</div>
+<p id="count" class="small" role="status" aria-live="polite">Showing 4 of 4 imported finds</p>
+<div class="catalog" id="products">
+<article class="card" data-name="Leather Slides" data-category="Shoes" data-price="62.36" data-id="158791">
+<div class="photo"><img src="https://si.geilicdn.com/open1769158365-252808396-70340000019822fe6f2d0a23b491_1200_1200.jpg" alt="Leather Slides listing photo from CAFANS" width="600" height="600" loading="lazy" decoding="async"><span class="tag">Shoes</span></div>
+<div class="card-body"><div class="ref">CAFANS reference · 158791</div><h3>Leather Slides</h3><div class="price">$62.36 <small>USD est.</small></div><div class="small">Item price · delivery extra</div><a class="btn" href="https://cafans.com" aria-label="Buy it now — find Leather Slides on CAFANS">Buy it now ↗</a></div>
+</article>
+<article class="card" data-name="Sweatshirt" data-category="Hoodies/Sweaters" data-price="27.50" data-id="158792">
+<div class="photo"><img src="https://si.geilicdn.com/open1862809525-1234478995-56360000019a9d1b5cc60aa081c2_1200_1200.jpg" alt="Sweatshirt listing photo from CAFANS" width="600" height="600" loading="lazy" decoding="async"><span class="tag">Hoodies/Sweaters</span></div>
+<div class="card-body"><div class="ref">CAFANS reference · 158792</div><h3>Sweatshirt</h3><div class="price">$27.50 <small>USD est.</small></div><div class="small">Item price · delivery extra</div><a class="btn" href="https://cafans.com" aria-label="Buy it now — find Sweatshirt on CAFANS">Buy it now ↗</a></div>
+</article>
+<article class="card" data-name="Kanye West Yeezy Bully Black Short Sleeve T-Shirt" data-category="T-Shirts" data-price="22.92" data-id="158273">
+<div class="photo"><img src="https://si.geilicdn.com/open1806012509-1234478995-3fda000001970c7f627e0a22d249_1000_1000.jpg" alt="Kanye West Yeezy Bully Black Short Sleeve T-Shirt listing photo from CAFANS" width="600" height="600" loading="lazy" decoding="async"><span class="tag">T-Shirts</span></div>
+<div class="card-body"><div class="ref">CAFANS reference · 158273</div><h3>Kanye West Yeezy Bully Black Short Sleeve T-Shirt</h3><div class="price">$22.92 <small>USD est.</small></div><div class="small">Item price · delivery extra</div><a class="btn" href="https://cafans.com" aria-label="Buy it now — find the Bully T-Shirt on CAFANS">Buy it now ↗</a></div>
+</article>
+<article class="card" data-name="Corteiz Jacket" data-category="Jackets" data-price="42.78" data-id="158279">
+<div class="photo"><img src="https://si.geilicdn.com/open1806012509-1234478995-093600000197108e2db10a8115c2_1000_1000.jpg" alt="Corteiz Jacket listing photo from CAFANS" width="600" height="600" loading="lazy" decoding="async"><span class="tag">Jackets</span></div>
+<div class="card-body"><div class="ref">CAFANS reference · 158279</div><h3>Corteiz Jacket</h3><div class="price">$42.78 <small>USD est.</small></div><div class="small">Item price · delivery extra</div><a class="btn" href="https://cafans.com" aria-label="Buy it now — find Corteiz Jacket on CAFANS">Buy it now ↗</a></div>
+</article>
+</div>
+<p id="empty" class="empty" hidden>No matching finds. Try another term or choose all categories.</p>
+<div class="catalog-foot"><p class="small">A static four-item snapshot, not a live inventory feed. Search the product name on CAFANS to revisit the listing.</p><button id="download" class="text-button" type="button">Download catalog CSV ↓</button></div>
+<noscript><p>All four products remain visible without JavaScript. Search, filters, CSV export and the calculator require JavaScript.</p></noscript>
+</section>
+
+<section id="guide">
+<div class="guide">
+<div class="eyebrow">From discovery to decision</div>
+<h2>How to use this iTaoBuy spreadsheet</h2>
+<p>Use this page to research a product, then confirm the selected item and purchasing route at the source.</p>
+<div class="steps">
+<article><div class="step-number">01</div><h3>Find the matching listing</h3><p>Choose a product and open CAFANS. Search its exact name and compare its reference, photo and selected option. This page’s shopping buttons lead to the CAFANS homepage.</p></article>
+<article><div class="step-number">02</div><h3>Confirm the platform and fit</h3><p>Open the product detail page and review its platform options. If you choose iTaoBuy, confirm that the link resolves to the intended listing. Check size measurements, color, quantity and seller terms before paying.</p></article>
+<article><div class="step-number">03</div><h3>Review the complete cost</h3><p>Confirm the current item price, domestic delivery, service fees and international shipping. Review inspection photos if available, then check the selected shipping route and applicable destination charges.</p></article>
+</div>
+</div>
+</section>
+
+<section>
+<div class="columns">
+<div>
+<div class="eyebrow">Compare more than the picture</div>
+<h2>A useful row answers real questions.</h2>
+<table>
+<thead><tr><th scope="col">Record</th><th scope="col">What to check</th></tr></thead>
+<tbody>
+<tr><td>Product identity</td><td>Reference, original listing and exact color or version.</td></tr>
+<tr><td>Fit</td><td>Garment measurements or shoe sizing guidance, with units.</td></tr>
+<tr><td>Price</td><td>Original currency, quantity and option used for the quote.</td></tr>
+<tr><td>Inspection</td><td>Photos of the relevant item and measurements you requested.</td></tr>
+<tr><td>Delivery</td><td>Packed weight, parcel dimensions and a destination-specific quote.</td></tr>
+<tr><td>Open questions</td><td>Stock status, missing details and return or exchange conditions.</td></tr>
+</tbody>
+</table>
+</div>
+<div class="calculator">
+<div class="eyebrow">Personal budget tool</div>
+<h2>Estimate your total.</h2>
+<p class="small">Enter your own USD quotes. Fields start empty because unknown costs should remain visible. This tool does not retrieve agent prices or calculate taxes.</p>
+<div class="fields">
+<label>Items subtotal · USD<input class="cost" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Enter amount"></label>
+<label>Domestic delivery · USD<input class="cost" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Enter amount"></label>
+<label>Service / payment fees · USD<input class="cost" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Enter amount"></label>
+<label>International shipping · USD<input class="cost" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Enter amount"></label>
+<label>Tax / duty estimate · USD<input class="cost" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Enter amount"></label>
+<label>Other quoted costs · USD<input class="cost" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Enter amount"></label>
+</div>
+<div class="total"><output id="total" aria-live="polite">Enter your quotes</output></div>
+<p id="budget-note" class="small">Enter 0 only when a charge is confirmed to be zero.</p>
+</div>
+</div>
+</section>
+
+<section>
+<div class="columns">
+<div><div class="eyebrow">Before you order</div><h2>Photos are a starting point.</h2><p>Listing photos help identify a product, but cannot establish its materials, fit, condition or authenticity. The imported images here are not labeled as warehouse inspections.</p><p>For clothing, compare chest width, shoulder width and length against a garment you already wear. For shoes, confirm the sizing system and how any foot or insole measurements were taken.</p></div>
+<div><h3>Your final review checklist</h3><ul class="checklist"><li>Match the original listing to the exact option you intend to buy.</li><li>Confirm availability and read the current return conditions.</li><li>Keep source photos separate from any inspection photos provided later.</li><li>Compare shipping quotes using the same parcel and destination.</li><li>Save dated prices and unresolved questions alongside the product reference.</li></ul></div>
+</div>
+</section>
+
+<section id="faq" class="faq">
+<div class="eyebrow">Good questions, clear answers</div>
+<h2>iTaoBuy spreadsheet FAQ</h2>
+<details open><summary>What is an iTaoBuy spreadsheet?</summary><p>An iTaoBuy spreadsheet is a product discovery list used to organize finds, source links, prices and buying notes. This page presents a small CAFANS catalog snapshot, rather than an official iTaoBuy inventory.</p></details>
+<details><summary>Do the buttons open iTaoBuy directly?</summary><p>No. Product and shopping buttons on this page open https://cafans.com. Find the matching item on CAFANS, open its detail page and review the available platform options.</p></details>
+<details><summary>Are the displayed prices the delivered cost?</summary><p>No. They are estimated USD item prices displayed on the CAFANS homepage when imported on 19 November 2026. Shipping, fees and applicable taxes may be additional. Confirm the current listing price and final quote before paying.</p></details>
+<details><summary>Can I download this spreadsheet?</summary><p>Yes. Use “Download catalog CSV” to export the four imported rows, including CAFANS item references, reference USD prices and the import date. The file opens in spreadsheet applications. It does not refresh itself.</p></details>
+<details><summary>How often does the catalog update?</summary><p>This page contains a dated static snapshot. It does not automatically synchronize CAFANS stock or prices. Visit CAFANS for its current catalog.</p></details>
+<details><summary>Are these products independently checked?</summary><p>No. Names, photos and reference prices come from CAFANS listings. Inclusion does not confirm product quality, authenticity or seller reliability. Request the details and evidence relevant to your purchase.</p></details>
+</section>
+
+<section>
+<div class="end"><div><h2>Build a better shortlist.</h2><p>Start with a find. Keep its source. Check the details.</p></div><a class="btn" href="https://cafans.com">iTaoBuy spreadsheet ↗</a></div>
+</section>
+</main>
+<footer>
+<div class="wrap">
+<strong>THE FINDS EDIT · iTaoBuy spreadsheet</strong>
+<p>Independent product discovery and research page. Not affiliated with or endorsed by iTaoBuy or the brands named in source listings. This page does not process orders, payments or shipping. Product names are retained for identification; trademarks belong to their respective owners.</p>
+<p>Catalog source: <a href="https://cafans.com">CAFANS</a>. Snapshot imported 19 November 2026. Product shopping links on this page lead to https://cafans.com. Source listing photos are hosted externally.</p>
+<p>© 2026 The Finds Edit.</p>
+</div>
+</footer>
+<script>
+(function(){
+"use strict";
+const grid=document.getElementById("products");
+const cards=Array.from(grid.querySelectorAll(".card"));
+const search=document.getElementById("search");
+const category=document.getElementById("category");
+const sort=document.getElementById("sort");
+function update(){
+const term=search.value.trim().toLowerCase();
+let visible=0;
+const ordered=cards.slice();
+if(sort.value==="low")ordered.sort((a,b)=>Number(a.dataset.price)-Number(b.dataset.price));
+if(sort.value==="high")ordered.sort((a,b)=>Number(b.dataset.price)-Number(a.dataset.price));
+ordered.forEach(card=>{
+const match=(category.value==="all"||card.dataset.category===category.value)&&
+(card.dataset.name+" "+card.dataset.category+" "+card.dataset.id).toLowerCase().includes(term);
+card.hidden=!match;
+if(match)visible++;
+grid.appendChild(card);
+});
+document.getElementById("count").textContent="Showing "+visible+" of "+cards.length+" imported finds";
+document.getElementById("empty").hidden=visible!==0;
+}
+search.addEventListener("input",update);
+category.addEventListener("change",update);
+sort.addEventListener("change",update);
+document.getElementById("download").addEventListener("click",function(){
+const quote=value=>'"'+String(value).replace(/"/g,'""')+'"';
+const rows=[["Product","Category","CAFANS reference","Estimated USD item price","Catalog destination","Source listing reference","Imported date"]];
+cards.forEach(card=>rows.push([card.dataset.name,card.dataset.category,card.dataset.id,card.dataset.price,"https://cafans.com","https://cafans.com/goods-"+card.dataset.id+".html","2026-11-19"]));
+const csv="\uFEFF"+rows.map(row=>row.map(quote).join(",")).join("\r\n");
+const url=URL.createObjectURL(new Blob([csv],{type:"text/csv;charset=utf-8;"}));
+const link=document.createElement("a");
+link.href=url;
+link.download="itaobuy-spreadsheet-cafans-2026-11-19.csv";
+document.body.appendChild(link);
+link.click();
+link.remove();
+setTimeout(()=>URL.revokeObjectURL(url),1000);
+});
+const costs=Array.from(document.querySelectorAll(".cost"));
+costs.forEach(input=>input.addEventListener("input",function(){
+let entered=0,total=0,invalid=false;
+costs.forEach(field=>{
+if(field.value!==""){
+entered++;
+const value=Number(field.value);
+if(!Number.isFinite(value)||value<0||!field.validity.valid)invalid=true;
+else total+=value;
+}
+});
+document.getElementById("total").textContent=invalid?"Check your amounts":entered?new Intl.NumberFormat("en-US",{style:"currency",currency:"USD"}).format(total):"Enter your quotes";
+document.getElementById("budget-note").textContent=invalid?"Use non-negative amounts with no more than two decimal places.":entered===costs.length?"Estimated total from your entries. Confirm all quotes before paying.":(costs.length-entered)+" cost fields remain unknown. Any displayed amount is a partial subtotal.";
+}));
+document.querySelectorAll(".photo img").forEach(img=>{
+img.addEventListener("error",function(){
+this.hidden=true;
+const note=document.createElement("p");
+note.textContent="Photo unavailable · view the listing on CAFANS";
+note.style.cssText="padding:55px 18px;text-align:center;font-size:13px";
+this.parentElement.appendChild(note);
+},{once:true});
+});
+})();
+</script>
+</body>
+</html>
